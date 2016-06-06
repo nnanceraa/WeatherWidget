@@ -1,0 +1,35 @@
+#widget	{
+		cursor:move; /* Use the 4-way arrow to indicate movable widget */
+		padding:10px;
+		border:dashed 1px;
+		max-width: 300px;
+		background-image: url('/WeatherWidget/widget.png');
+		color: grey;
+		text-align: right;
+		font-family: Sans-Serif;
+		border-radius: 15px;
+		-webkit-text-stroke-color: black;
+		-webkit-text-stroke-width: 0.5px;
+}
+#content {
+		width:300px;
+		height:150px;
+}
+
+#toggle{
+		background-image: url("arrowUp.png");
+}
+
+button{
+		border-radius: 10px;
+		width: 30px;
+		height:30px;
+		background-color: #EED74A;
+}
+
+body{
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #B1C1FD;
+}
